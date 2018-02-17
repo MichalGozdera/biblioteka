@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aspects" />
+        <module name="async" />
+        <module name="batch" />
+        <module name="cache" />
+        <module name="file-uploader" />
+        <module name="jdbc-template" />
+        <module name="jms" />
+        <module name="jpa" />
+        <module name="neo4j" />
+        <module name="rest-service" />
+        <module name="scheduler" />
+        <module name="spring-boot" />
+        <module name="transactions" />
+        <module name="validator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aspects" target="1.8" />
+      <module name="async" target="1.8" />
+      <module name="batch" target="1.8" />
+      <module name="cache" target="1.8" />
+      <module name="file-uploader" target="1.8" />
+      <module name="jdbc-template" target="1.8" />
+      <module name="jms" target="1.8" />
+      <module name="jpa" target="1.8" />
+      <module name="neo4j" target="1.8" />
+      <module name="rest-service" target="1.8" />
+      <module name="scheduler" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-boot" target="1.8" />
+      <module name="transactions" target="1.8" />
+      <module name="validator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
